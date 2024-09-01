@@ -1,0 +1,7 @@
+.myBorder{
+  transition: all 0.3s;
+}
+.myMain:hover > .myBorder{
+  left: 0;
+  top: 0;
+}
