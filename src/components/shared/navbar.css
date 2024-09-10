@@ -1,0 +1,17 @@
+.myNavLine{
+  transition: 300ms ease-in;
+}
+.myNav:nth-child(even) .myNavLine{
+  border-bottom: solid 2px;
+}
+.myNav:nth-child(odd) .myNavLine{
+  border-bottom: solid 3.5px;
+}
+.myNav:hover > .myNavLine{
+  border-color: #ffa500 ;
+  width: 5em;
+}
+.myNav.active > .myNavLine{
+  border-color: #ffa500 ;
+  width: 5.5em;
+}
