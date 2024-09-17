@@ -9,8 +9,8 @@ const Button = ({text}: ButtonProps) =>{
   return (
     <>
       <div className="flex relative w-fit rounded-sm z-10 myMain cursor-pointer">
-        <div className="bg-myGold p-2 rounded-sm m-[3px] relative z-10">
-          <h1 className="text-white text-2xl">{text}</h1>
+        <div className="bg-myGold p-4 rounded-sm m-[3px] relative z-10 hover:bg-transparent hover:text-myGold text-white">
+          <h1 className="text-3xl">{text}</h1>
         </div>
         <div className="absolute h-full w-full border-[3px] border-black rounded-sm z-0 left-3 top-3 myBorder"></div>
       </div>
