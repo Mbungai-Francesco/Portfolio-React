@@ -1,0 +1,12 @@
+.myblocks::-webkit-scrollbar {
+  width: 0.75em;
+}
+.myblocks::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 20px;
+}
+.myblocks::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom,var(--third-color),var(--primary-color));
+  border-radius: 20px;
+  border: 2px solid var(--primary-color);
+}

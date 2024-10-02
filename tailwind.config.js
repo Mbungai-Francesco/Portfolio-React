@@ -8,6 +8,7 @@ export default {
     extend: {
       colors:{
         myGold: '#ffa500',
+        myShadowGold: '#ff8c00',
         myGray: {
           100 : '#a4a4a4',
           200 : '#a4a4a4'
