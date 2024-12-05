@@ -1,4 +1,4 @@
-import SkillBox from "../../components/shared/skills/skillBox";
+import SkillBox from "../../components/skills/skillBox";
 import './right.css'
 
 const SkillsRight = () =>{
