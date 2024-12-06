@@ -1,6 +1,8 @@
 import Button from "../../components/shared/button";
 import TextBox from "../../components/shared/textBox";
 
+import resume from '../../assets/files/FM.pdf'
+
 const About = () => {
 	return (
 		<>
@@ -19,7 +21,7 @@ const About = () => {
 					</p>
 				</TextBox>
 				<div className="space-y-16">
-					<Button text="View Resume" />
+					<Button type="button" text="View Resume" link={resume}/>
 				</div>
 			</div>
 		</>

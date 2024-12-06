@@ -2,7 +2,7 @@
   width: 0.75em;
 }
 .myblocks::-webkit-scrollbar-track {
-  background: white;
+  background: transparent;
   border-radius: 20px;
 }
 .myblocks::-webkit-scrollbar-thumb {

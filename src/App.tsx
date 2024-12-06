@@ -3,6 +3,7 @@ import "./App.css";
 import { About, Contact, Projects, Skills, AboutRight, ContactRight, ProjectsRight, SkillsRight } from "./pages";
 import Navbar from "./components/shared/navbar";
 import { motion, useMotionValue } from 'framer-motion';
+import { Toaster } from "./components/ui/toaster";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 	return (
 		<>
 			<div 
-				className="flex px-20 pt-10 pb-10 justify-between h-screen bg-myWhite skills-right-container"
+				className="flex px-20 pt-20 pb-10 justify-between h-screen bg-myWhite skills-right-container"
 				onMouseMove={handleMouseMove}
 			>
 				<motion.div
@@ -37,6 +38,7 @@ function App() {
             pointerEvents: 'none',
           }}
         />
+				<Toaster />
 				<div className="w-2/5 flex flex-col justify-between">
 					<Routes>
 						{/* Add your routes here */}

@@ -3,7 +3,7 @@ const AboutRight = () => {
 		<>
 			<div className="w-full flex justify-between items-center flex-col px-8 h-full">
 				<div className="w-[80%] relative z-10 h-fit">
-					<h1 className="text-[20em] bg-black text-center font-bold text-white">
+					<h1 className="text-[18em] bg-black text-center font-bold text-white">
 						FE
 					</h1>
 					<div className="absolute h-full w-full border-[3px] border-black rounded-sm z-0 left-3 top-3 myBorder"></div>

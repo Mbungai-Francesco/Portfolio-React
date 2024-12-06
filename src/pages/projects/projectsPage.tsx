@@ -17,7 +17,7 @@ const Projects = () => {
 					</p>
 				</TextBox>
 				<div className="space-y-16">
-					<Button text="View Github" />
+					<Button text="View Github" type="button" link="https://github.com/Mbungai-Francesco"/>
 				</div>
 			</div>
 		</>
