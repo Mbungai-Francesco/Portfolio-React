@@ -21,7 +21,7 @@ function App() {
 	return (
 		<>
 			<div 
-				className="flex px-20 pt-20 pb-10 justify-between h-screen bg-myWhite skills-right-container"
+				className="flex px-20 pt-20 pb-10 justify-between h-screen overflow-y-scroll skills-right-container bg-myWhite"
 				onMouseMove={handleMouseMove}
 			>
 				<motion.div

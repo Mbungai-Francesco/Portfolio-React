@@ -1,7 +1,7 @@
 const AboutRight = () => {
 	return (
 		<>
-			<div className="w-full flex justify-between items-center flex-col px-8 h-full">
+			<div className="w-full space-y-10 flex justify-between items-center flex-col px-8 h-full">
 				<div className="w-[80%] relative z-10 h-fit">
 					<h1 className="text-[18em] bg-black text-center font-bold text-white">
 						FE
